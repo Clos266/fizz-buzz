@@ -1,6 +1,6 @@
 /**
  * Responsabilidad: gestionar el los flujos de que recibe y muestra la interfáz
- * */ 
+ *  */
 let numbers=[];
 
 function fizzBuzz(){
@@ -35,7 +35,9 @@ try{
     numero: isNaN(number) ? document.getElementById("number").value : number,
     resultado: result.trim()
   });
+
   console.log(numbers);
+
   document.getElementById("result").innerHTML = result;
   numbers.forEach(number => result.innerHTML += "<br>" + Object.values(number).join(" "));
   
