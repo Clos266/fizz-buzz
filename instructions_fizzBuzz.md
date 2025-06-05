@@ -7,19 +7,19 @@ Este ejercicio tiene como objetivo evaluar tus conocimientos sobre JavaScript, m
 ## Funcionalidades
 
 * Crear una página HTML con un campo de entrada (input) para recibir un número, un botón para procesarlo y una sección donde se muestren los resultados  ✅
-* Validar que el usuario solo pueda ingresar números. 
-* Al presionar el botón, mostrar el resultado en pantalla según las reglas de FizzBuzz.
-* Se mantiene un historial de los valores ingresados y sus respectivos resultados.
+* Validar que el usuario solo pueda ingresar números.  ✅
+* Al presionar el botón, mostrar el resultado en pantalla según las reglas de FizzBuzz.✅
+* Se mantiene un historial de los valores ingresados y sus respectivos resultados.✅
 
 ## Criterios de Aceptación
 
-* *Funcional*: Si el número ingresado es divisible por 3, se muestra Fizz.
-* *Funcional*: Si el número ingresado es divisible por 5, se muestra Buzz.
-* *Funcional*: Si el número ingresado es divisible por 3 y 5, se muestra FizzBuzz.
-* *Funcional*: Si el número ingresado no es divisible ni por 3 ni por 5, se muestra el número mismo.
-* *Funcional*: Si el usuario ingresa un valor no numérico, se debe mostrar un mensaje de error.
-* *Funcional*: Se muestra en pantalla un historial con los valores ingresados y sus resultados.
-* *Técnico*: Guardar cada número ingresado en un objeto junto con su resultado.
+* *Funcional*: Si el número ingresado es divisible por 3, se muestra Fizz.✅
+* *Funcional*: Si el número ingresado es divisible por 5, se muestra Buzz.✅
+* *Funcional*: Si el número ingresado es divisible por 3 y 5, se muestra FizzBuzz.✅
+* *Funcional*: Si el número ingresado no es divisible ni por 3 ni por 5, se muestra el número mismo.✅
+* *Funcional*: Si el usuario ingresa un valor no numérico, se debe mostrar un mensaje de error.✅
+* *Funcional*: Se muestra en pantalla un historial con los valores ingresados y sus resultados.✅
+* *Técnico*: Guardar cada número ingresado en un objeto junto con su resultado.✅
 * *Técnico*: Manejar errores usando `<span>try...catch</span>`.
 * *Técnico*: implementar una estructura de retorno con el siguiente formato:
 
