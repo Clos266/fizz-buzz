@@ -6,8 +6,8 @@ Este ejercicio tiene como objetivo evaluar tus conocimientos sobre JavaScript, m
 
 ## Funcionalidades
 
-* Crear una página HTML con un campo de entrada (input) para recibir un número, un botón para procesarlo y una sección donde se muestren los resultados
-* Validar que el usuario solo pueda ingresar números.
+* Crear una página HTML con un campo de entrada (input) para recibir un número, un botón para procesarlo y una sección donde se muestren los resultados  ✅
+* Validar que el usuario solo pueda ingresar números. 
 * Al presionar el botón, mostrar el resultado en pantalla según las reglas de FizzBuzz.
 * Se mantiene un historial de los valores ingresados y sus respectivos resultados.
 
