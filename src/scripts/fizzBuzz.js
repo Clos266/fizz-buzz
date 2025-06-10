@@ -12,50 +12,48 @@
  * */ 
 /**
  * Responsabilidad: gestionar el los flujos de que recibe y muestra la interfáz
- * *
-let numbers=[];
-
-function fizzBuzz(){
-
-let number= parseInt(document.getElementById("number").value);
-let result ="";
-
-console.log(number);
-
+ * */
+export let numbers=[];
+export function fizzBuzz(number){
+let result = "";
+let message = "";
 try{
  if (isNaN(number)){
-      //console.log("enter the number not the string");
-      // return result += number + "is not a number"     
-      throw new Error("is not a number")        
+  throw new Error("is not a number") 
   } else {
-    if (number % 3 === 0) {
-      result += "fizz ";
+       if (number % 3 === 0 && number % 5 === 0) {
+      result = "FizzBuzz";
+      message = "El número divisible por 3 y 5";
     }
-    if (number % 5 === 0) {
-      result += "buzz";
+    else if (number % 3 === 0) {
+      result = "Fizz";
+      message = "El número es divisible por 3";
     }
-    if (result === "") {
+    else if (number % 5 === 0) {
+      result = "Buzz";
+      message = "El número es divisible por 5";
+
+    }
+    else {
       result = number.toString();
+      message = "El número no divisible por 3 ni 5";
     }
   }
-} catch (err) {
-  result = `error: ${err.message}`
-}
-
- 
   numbers.push({
     numero: isNaN(number) ? document.getElementById("number").value : number,
     resultado: result.trim()
   });
-
-  console.log(numbers);
   
-  document.getElementById("result").innerHTML = result;
-  numbers.forEach(number => result.innerHTML += "<br>" + Object.values(number).join(" "));
-  
-};
-;
-
-
-
-
+} catch (err) {
+  result = `error: ${err.message}`
+}
+ 
+  return {
+        status: "ok",
+        message: message,
+        data: {
+            input: number,
+            output: result
+        }
+    };
+  };

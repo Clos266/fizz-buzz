@@ -20,9 +20,9 @@ Este ejercicio tiene como objetivo evaluar tus conocimientos sobre JavaScript, m
 * *Funcional*: Si el usuario ingresa un valor no numérico, se debe mostrar un mensaje de error.✅
 * *Funcional*: Se muestra en pantalla un historial con los valores ingresados y sus resultados.✅
 * *Técnico*: Guardar cada número ingresado en un objeto junto con su resultado.✅
-* *Técnico*: Manejar errores usando `<span>try...catch</span>`.
-* *Técnico*: implementar una estructura de retorno con el siguiente formato:
-
+* *Técnico*: Manejar erroresuna estructura de retorno con el siguiente formato:
+ usando `<span>try...catch</span>`.
+* *Técnico*: implementar 
   ```javascript
   {
   	status: "", // Código indicando éxito o error
